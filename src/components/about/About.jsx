@@ -7,20 +7,19 @@ import Info from "./Info";
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">
-            About Myself
-        </h2>
-        <span className="section__subtitle">
-            Some Quick Notes
-        </span>
         <div className="about__container container grid">
             <img src={AboutImg}  alt="" className="about__img" />
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita aspernatur fugiat laboriosam. Eaque, reiciendis consectetur rem exercitationem quia omnis ducimus sequi accusamus aspernatur enim, necessitatibus dolores molestias nesciunt nulla.
+                    I'm Lex. I've done several projects for research and personal use, touching a variety of technologies along the way. I enjoy learning new things, especially with regards to language or math. 
                 </p>
-                <a download ="" href={CV} className="button button--flex">Download Resume
+                <br/>
+                <p className="about__description">
+                    You can check out some of the stuff I've done by downloading my resume or taking a look at my <a href = "https://www.linkedin.com/in/lxaw/">LinkedIn</a>.
+                </p>
+                <a download ="" href={CV} className="button button--flex">
+                    Resume
                     <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"

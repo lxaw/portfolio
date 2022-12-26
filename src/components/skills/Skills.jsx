@@ -7,7 +7,6 @@ const Skills = () => {
   return (
     <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle">Some things I can do.</span>
         <div className="skills__container container grid">
             <ProgramLanguages/>
             <FrontendBackend/>
