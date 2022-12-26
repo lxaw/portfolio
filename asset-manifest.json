@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c33f7ed.css",
-    "main.js": "/portfolio/static/js/main.29c928d4.js",
+    "main.css": "/portfolio/static/css/main.26b76117.css",
+    "main.js": "/portfolio/static/js/main.b3b60371.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/about.png": "/portfolio/static/media/about.082560807ca4abc36ac8.png",
     "static/media/me.png": "/portfolio/static/media/me.082560807ca4abc36ac8.png",
-    "static/media/John-Cv.pdf": "/portfolio/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "static/media/about.png": "/portfolio/static/media/about.28944d0b5ecdfb485172.png",
+    "static/media/lex_whalen_resume_no_contacts.docx.pdf": "/portfolio/static/media/lex_whalen_resume_no_contacts.docx.d40883bfd3069d83b88a.pdf",
     "index.html": "/portfolio/index.html",
-    "main.1c33f7ed.css.map": "/portfolio/static/css/main.1c33f7ed.css.map",
-    "main.29c928d4.js.map": "/portfolio/static/js/main.29c928d4.js.map",
+    "main.26b76117.css.map": "/portfolio/static/css/main.26b76117.css.map",
+    "main.b3b60371.js.map": "/portfolio/static/js/main.b3b60371.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c33f7ed.css",
-    "static/js/main.29c928d4.js"
+    "static/css/main.26b76117.css",
+    "static/js/main.b3b60371.js"
   ]
 }
