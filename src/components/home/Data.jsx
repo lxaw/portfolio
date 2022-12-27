@@ -1,14 +1,18 @@
 import React from 'react'
+import { DataText } from '../../TextTranslations/Home/DataText'
 
-const Data = () => {
+const Data = (props) => {
+
+  const dataText = DataText[props.lang];
+
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Lex Whalen
+          {dataText['name']}
         </h1>
-        <h3 className="home__subtitle">Welcome.</h3>
+        <h3 className="home__subtitle">{dataText['welcome']}</h3>
         <p className="home__description">
-            Nice to meet you. Here's a bit of who I am and what I do.
+          {dataText['homeDescription']}
         </p>
     </div>
   )

@@ -7,17 +7,27 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 import ScrollUp from './components/scrollUp/ScrollUp';
 
+import {useState} from "react";
+import { HeaderText } from './TextTranslations/Header/HeaderText';
+import { DataText } from './TextTranslations/Home/DataText';
+
 function App() {
+  var [inJapanese,setInJapanese] = useState(false);
+
+  const switchLanguage = () => {
+    setInJapanese(!inJapanese);
+  }
+
   return (
     <>
-      <Header/>
+      <Header onClickLanguage = {()=>{switchLanguage()}} lang = {inJapanese ? "JA" : "EN"} />
       <main className = 'main'>
-        <Home/>
-        <About/>
-        <Skills/>
-        <Contact/>
+        <Home lang = {inJapanese ? "JA":"EN"}/>
+        <About lang = {inJapanese ? "JA":"EN"}/>
+        <Skills lang = {inJapanese ? "JA":"EN"}/>
+        <Contact lang = {inJapanese ? "JA":"EN"}/>
       </main>
-      <Footer/>
+      <Footer lang = {inJapanese ? "JA":"EN"}/>
       <ScrollUp/>
 
     </>

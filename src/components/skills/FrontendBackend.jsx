@@ -1,10 +1,12 @@
 import React from 'react'
+import { FrontendBackendText } from '../../TextTranslations/Skills/FrontendBackendText'
 
-const FrontendBackend = () => {
+const FrontendBackend = (props) => {
+  const frontendBackendText = FrontendBackendText[props.lang];
   return (
     <div className="skills__content">
 
-        <h2 className="skills__title">Frontend / Backend Development</h2>
+        <h2 className="skills__title">{frontendBackendText['title']}</h2>
 
         <div className="skills__box">
 
@@ -12,29 +14,29 @@ const FrontendBackend = () => {
                 <div className="skills__data">
                     <i class="uil uil-award"></i>
                     <div>
-                        <h2 className="skills__name">Django</h2>
-                        <span className="skills__level">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt asperiores quaerat dolor quas eaque, praesentium ipsa tempore non dignissimos et officia voluptas facilis accusantium quo. Minima quod quia quas obcaecati?</span>
+                        <h2 className="skills__name">{frontendBackendText['titleDjango']}</h2>
+                        <span className="skills__level">{frontendBackendText['descDjango']}</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i class="uil uil-award"></i>
                     <div>
-                        <h2 className="skills__name">React</h2>
-                        <span className="skills__level">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum necessitatibus doloremque architecto recusandae corrupti esse odit voluptates? Quasi iure atque eaque perspiciatis fuga culpa veritatis consectetur facilis, nobis a labore.</span>
+                        <h2 className="skills__name">{frontendBackendText['titleReact']}</h2>
+                        <span className="skills__level">{frontendBackendText['descReact']}</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i class="uil uil-award"></i>
                     <div>
-                        <h2 className="skills__name">Symfony</h2>
-                        <span className="skills__level">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum necessitatibus doloremque architecto recusandae corrupti esse odit voluptates? Quasi iure atque eaque perspiciatis fuga culpa veritatis consectetur facilis, nobis a labore.</span>
+                        <h2 className="skills__name">{frontendBackendText['titleSymfony']}</h2>
+                        <span className="skills__level">{frontendBackendText['descSymfony']}</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i class="uil uil-award"></i>
                     <div>
-                        <h2 className="skills__name">Ruby on Rails</h2>
-                        <span className="skills__level">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum necessitatibus doloremque architecto recusandae corrupti esse odit voluptates? Quasi iure atque eaque perspiciatis fuga culpa veritatis consectetur facilis, nobis a labore.</span>
+                        <h2 className="skills__name">{frontendBackendText['titleRails']}</h2>
+                        <span className="skills__level">{frontendBackendText['descRails']}</span>
                     </div>
                 </div>
             </div>

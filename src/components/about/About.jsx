@@ -3,23 +3,21 @@ import "./about.css";
 import AboutImg from "../../assets/about.png";
 import CV from "../../assets/lex_whalen_resume_no_contacts.docx.pdf";
 import Info from "./Info";
+import { AboutText } from '../../TextTranslations/About/AboutText';
 
-const About = () => {
+const About = (props) => {
+    const aboutText = AboutText[props.lang];
   return (
     <section className="about section" id="about">
         <div className="about__container container grid">
             <img src={AboutImg}  alt="" className="about__img" />
             <div className="about__data">
-                <Info/>
+                <Info lang={props.lang}/>
                 <p className="about__description">
-                    I'm Lex. I've done several projects for research and personal use, touching a variety of technologies along the way. I enjoy learning new things, especially with regards to language or math. 
-                </p>
-                <br/>
-                <p className="about__description">
-                    You can check out some of the stuff I've done by downloading my resume or taking a look at my <a href = "https://www.linkedin.com/in/lxaw/">LinkedIn</a>.
+                    {aboutText['aboutDescription']}
                 </p>
                 <a download ="" href={CV} className="button button--flex">
-                    Resume
+                    {aboutText['resume']}
                     <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
