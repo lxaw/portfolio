@@ -7,10 +7,10 @@ export const FooterText = {
         "contact":"Contact",
     },
     JA:{
-        "name":"jLex Whalen",
-        "toTop":"jBack to Top",
-        "about":"jAbout",
-        "skills":"jSkills",
-        "contact":"jContact",
+        "name":"ウェーレン・レックス",
+        "toTop":"上へ",
+        "about":"自己紹介",
+        "skills":"スキル",
+        "contact":"連絡先",
     }
 }

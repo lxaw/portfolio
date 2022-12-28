@@ -9,7 +9,6 @@ const Contact = (props) => {
         <h2 className="section__title">{contactText['title']}</h2>
         <div className="contact__container container grid">
             <div className="contact__content">
-                <h3 className="contact__title">{contactText['socialMediaTitle']}</h3>
                 <div className="contact__info">
                     <div className="contact__card">
                         <i className="uil uil-github-alt contact__card-icon"></i>
@@ -20,16 +19,11 @@ const Contact = (props) => {
                 </div>
             </div>
             <div className="contact__content">
-                <h3 className="contact__title">{contactText['emailTitle']}</h3>
                 <div className="contact__info">
                     <div className="contact__card">
                         <i className="bx bx-mail-send contact__card-icon"></i>
                         <h3 className="contact__card-title">{contactText['emailEmail']}</h3>
                         <span className="contact__card-data">{contactText['emailContact']}</span>
-
-                        <a href="mailto:whalenlex@gmail.com" className="contact__button">{contactText['writeMe']} {" "}
-                            <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                        </a>
                     </div>
                 </div>
             </div>

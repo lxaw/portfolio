@@ -7,10 +7,10 @@ export const HeaderText = {
         languageText:"日本語"
     },
     JA:{
-        homeTitle:"jHome",
-        aboutTitle:"jAbout",
-        skillsTitle:"jSkills",
-        contactTitle:"jContact",
+        homeTitle:"ホーム",
+        aboutTitle:"自己紹介",
+        skillsTitle:"スキル",
+        contactTitle:"連絡先",
         languageText:"English"
     }
 }

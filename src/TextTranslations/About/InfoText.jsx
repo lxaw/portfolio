@@ -3,6 +3,6 @@ export const InfoText = {
         "aboutTitle":"About Myself"
     },
     JA:{
-        "aboutTitle":"jAboutMyself"
+        "aboutTitle":"自己紹介"
     }
 }
