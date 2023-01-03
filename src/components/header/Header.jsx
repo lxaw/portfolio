@@ -18,6 +18,9 @@ const Header = (props) => {
 
   return (
     <header className="header">
+        <h2 className="under-construction__header">
+            {headerText['construction']}
+        </h2>
         <nav className="nav container">
             <p className="nav__logo" onClick={props.onClickLanguage}>
                 {headerText['languageText']}

@@ -12,7 +12,6 @@ const ProgramLanguages= (props) => {
 
             <div className="skills__group">
                 <div className="skills__data">
-                    <i class="uil uil-award"></i>
                     <div>
                         <h2 className="skills__name">{programmingLanguagesText['skillsName']}</h2>
                         <span className="skills__level">
