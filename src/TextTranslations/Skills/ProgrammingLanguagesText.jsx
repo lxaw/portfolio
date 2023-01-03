@@ -1,8 +1,11 @@
 export const ProgrammingLanguagesText = {
     EN:{
         "title":"Programming Languages",
-        "skillsName":"You Name It.",
-        "skillsLevel":'Desc'
+        "skillsName":"My Stance",
+        "skillsLevel":'A lot of people write on their resumes how the "know" a programming language, but I never really got what that means. Can you write a server with it? Can you make an iPhone app? Can you make Facebook?  \
+        "Know" is such a broad term that oftentimes it holds little meaning, and most oftentimes the problems that are solved with programming languages are largely independent from the specific programming language itself. \
+        With that in mind, below I have described a little bit of what sorts of problems I have dealt with, and what sorts of languages that were used to deal with them.\
+        '
     },
     JA:{
         "title":"プログラミング言語",

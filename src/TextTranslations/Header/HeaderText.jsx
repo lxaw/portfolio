@@ -5,7 +5,7 @@ export const HeaderText = {
         skillsTitle:"Skills",
         contactTitle:"Contact",
         languageText:"日本語",
-        construction:"Under Construction, please excuse the dust!"
+        construction:"Under construction, please excuse the dust!"
     },
     JA:{
         homeTitle:"ホーム",
@@ -13,6 +13,6 @@ export const HeaderText = {
         skillsTitle:"スキル",
         contactTitle:"連絡先",
         languageText:"English",
-        construction:"この先工事中"
+        construction:"この先工事中: まだ未完成なので、壊れた機能やテキストがない部分もあるかもしれません。"
     }
 }
