@@ -1,8 +1,8 @@
 import React from 'react'
-import { FrontendBackendText } from '../../TextTranslations/Skills/FrontendBackendText'
+import { ProjectsText} from '../../TextTranslations/Skills/ProjectsText'
 
-const FrontendBackend = (props) => {
-  const frontendBackendText = FrontendBackendText[props.lang];
+const Projects = (props) => {
+  const frontendBackendText = ProjectsText[props.lang];
   return (
     <div className="skills__content">
 
@@ -39,10 +39,17 @@ const FrontendBackend = (props) => {
                         <span className="skills__level">{frontendBackendText['descRails']}</span>
                     </div>
                 </div>
+                <div className="skills__data">
+                    <i class="uil uil-award"></i>
+                    <div>
+                        <h2 className="skills__name">{frontendBackendText['titleAndroid']}</h2>
+                        <span className="skills__level">{frontendBackendText['descAndroid']}</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
   )
 }
 
-export default FrontendBackend
+export default Projects
