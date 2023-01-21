@@ -2,7 +2,7 @@ export const DataText = {
     EN: {
         name:"Lex Whalen",
         welcome: "Welcome!",
-        homeDescription:"Nice to meet you. Here's a bit of who I am and what I do."
+        homeDescription:"Nice to meet you. Here's a bit of who I am and what I do. I've included a brief overview of my work along with some things to get to know me a little more."
     },
     JA: {
         name:"レックス",

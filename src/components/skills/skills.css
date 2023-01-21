@@ -44,7 +44,7 @@
     line-height: 18px;
 }
 .skills__level{
-    font-size:var(--tiny-font-size);
+    font-size:var(--small-font-size);
 }
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

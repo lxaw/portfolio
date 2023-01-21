@@ -1,6 +1,9 @@
 export const AboutText = {
     EN:{
-        "aboutDescription":"I'm Lex. I've done several projects for research and personal use, touching a variety of technologies along the way. I enjoy learning new things, especially with regards to language or math. ",
+        "aboutDescription":"\
+        I'm a third year student at the University of South Carolina majoring in CS, and have taken up a variety of jobs. In most of these jobs I either am a project manager or developer, \
+        and have worked with a variety of frameworks or technologies, from Android Studio to Django's REST Framework to React. Much of my work has dealt with full stack development, but I also have experience with data analysis and low-level programming. \
+        ",
         "resume":"Resume",
     },
     JA:{

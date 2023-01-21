@@ -10,6 +10,7 @@ import ScrollUp from './components/scrollUp/ScrollUp';
 import {useState} from "react";
 import { HeaderText } from './TextTranslations/Header/HeaderText';
 import { DataText } from './TextTranslations/Home/DataText';
+import Hobbies from './components/hobbies/Hobbies';
 
 function App() {
   var [inJapanese,setInJapanese] = useState(false);
@@ -25,6 +26,7 @@ function App() {
         <Home lang = {inJapanese ? "JA":"EN"}/>
         <About lang = {inJapanese ? "JA":"EN"}/>
         <Skills lang = {inJapanese ? "JA":"EN"}/>
+        <Hobbies lang = {inJapanese ? "JA":"EN"}/>
         <Contact lang = {inJapanese ? "JA":"EN"}/>
       </main>
       <Footer lang = {inJapanese ? "JA":"EN"}/>
